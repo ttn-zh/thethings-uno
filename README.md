@@ -16,3 +16,6 @@ Super simple code samples to get you started with The Things UNO and The Things 
  * Rejoice and hack something cool!
 
 <sup>(1)</sup> TTN doesn't support over-the-air activation yet, so this is only temporary. In a later stage, it won't be needed to manually assign a device address, but for now, please be a good boy/girl and respect the address space.
+
+## Credits
+Based on https://github.com/thingkit-ee/things_uno
