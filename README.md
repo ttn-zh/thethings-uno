@@ -5,6 +5,7 @@ Super simple code samples to get you started with The Things UNO and The Things 
 ## Instructions
 
  * [Install Arduino IDE](https://www.arduino.cc/en/Main/Software) and connect your The Things UNO to your computer.
+ * Ensure that in the IDE 'Tools -> Board' is set to 'Arduino Leonardo' (otherwise compilation will fail, as it will not recognize Serial1)
  * Clone this repository:
 
         $ git clone git@github.com:gonzalocasas/thethings-uno.git
