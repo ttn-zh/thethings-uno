@@ -8,7 +8,7 @@ Super simple code samples to get you started with The Things UNO and The Things 
  * Ensure that in the IDE 'Tools -> Board' is set to 'Arduino Leonardo' (otherwise compilation will fail, as it will not recognize Serial1)
  * Clone this repository:
 
-        $ git clone git@github.com:gonzalocasas/thethings-uno.git
+        $ git clone https://github.com/ttn-zh/thethings-uno.git
 
  * Open the Arduino IDE and then open the [getting started sketch](getting-started/getting-started.ino).
  * Open the `LoRa.cpp` file and assign a new device address to your device on the line `Serial1.write("mac set devaddr 5A480101\r\n");`. For TTN Zurich, please use the address space 5A4801xx (i.e. replace `xx` with an hex value) <sup>(1)</sup>.
