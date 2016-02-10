@@ -1,22 +1,3 @@
-# Getting Started with The Things UNO
+# MOVED: https://github.com/TheThingsNetwork/examples/tree/master/basic/thethings-uno
 
-Super simple code samples to get you started with The Things UNO and The Things Network.
-
-## Instructions
-
- * [Install Arduino IDE](https://www.arduino.cc/en/Main/Software) and connect your The Things UNO to your computer.
- * Ensure that in the IDE 'Tools -> Board' is set to 'Arduino Leonardo' (otherwise compilation will fail, as it will not recognize Serial1)
- * Clone this repository:
-
-        $ git clone https://github.com/ttn-zh/thethings-uno.git
-
- * Open the Arduino IDE and then open the [getting started sketch](getting-started/getting-started.ino).
- * Open the `LoRa.cpp` file and assign a new device address to your device on the line `Serial1.write("mac set devaddr 5A480101\r\n");`. For TTN Zurich, please use the address space 5A4801xx (i.e. replace `xx` with an hex value) <sup>(1)</sup>.
- * Compile and upload the code.
- * Head over to [the API and see your packets coming in](http://thethingsnetwork.org/api/v0/nodes/5A480101/).
- * Rejoice and hack something cool!
-
-<sup>(1)</sup> TTN doesn't support over-the-air activation yet, so this is only temporary. In a later stage, it won't be needed to manually assign a device address, but for now, please be a good boy/girl and respect the address space.
-
-## Credits
-Based on https://github.com/thingkit-ee/things_uno
+This example has been merged into the global `examples` repository of The Things Network.
